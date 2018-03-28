@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wzm.tasking.activity.UserAvatar">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_user_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?app_bg"
+        app:navigationIcon="@drawable/ic_back"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="@string/see_avatar"
+        app:titleTextColor="@color/colorWhite"></android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/img_show_image"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/bt_selector"
+        android:text="@string/download_bitmap"
+        android:textColor="@color/colorGray_3"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

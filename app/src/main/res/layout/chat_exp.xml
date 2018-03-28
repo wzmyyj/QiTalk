@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_chat_exp"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_gravity="bottom"
+    android:background="#ddffffff"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:visibility="gone">
+
+    <GridView
+        android:id="@+id/gv_chat_exp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:numColumns="6"></GridView>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="5dp"></LinearLayout>-->
+
+</LinearLayout>

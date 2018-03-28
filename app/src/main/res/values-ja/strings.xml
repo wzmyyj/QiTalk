@@ -1,0 +1,260 @@
+<resources>
+    <string name="app_name">軽い話</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    //nav
+    <string name="nav_1">個人情報</string>
+    <string name="nav_2">通知タイプ</string>
+    <string name="nav_3">邪魔しないで</string>
+    <string name="nav_4">ブラックリスト</string>
+    <string name="nav_5">テーマ</string>
+    <string name="nav_6">言語</string>
+    <string name="nav_7">パスワード</string>
+    <string name="nav_8">ログアウト</string>
+
+
+    //theme
+    <string name="theme_0">ブルー</string>
+    <string name="theme_1">スカイブルー</string>
+    <string name="theme_2">パウダー</string>
+    <string name="theme_3">赤</string>
+    <string name="theme_4">グリーン</string>
+    <string name="theme_5">オレンジ</string>
+    <string name="theme_6">パープル</string>
+    <string name="theme_7">ナイトモード</string>
+
+    //notify_type
+    <string name="notify_type_0">デフォルト</string>
+    <string name="notify_type_1">ません予告</string>
+    <string name="notify_type_2">通知バー</string>
+    <string name="notify_type_3">サウンド</string>
+    <string name="notify_type_4">ショック</string>
+    <string name="notify_type_5">LED</string>
+
+
+    //common
+    <string name="long_press_add">プレス追加</string>
+    <string name="long_press_delete">押して削除します</string>
+
+    <string name="save">保存</string>
+    <string name="update_data_success">データが正常に更新します</string>
+    <string name="Tip">プロンプト：</string>
+    <string name="loading">にロード。。。</string>
+    <string name="loading_fail">読み込みに失敗しました。</string>
+
+    <string name="set_success">設定成功</string>
+    <string name="set_fail">設定失敗しました</string>
+
+    <string name="out_success">正常に削除</string>
+    <string name="out_fail">故障のうち、</string>
+
+    <string name="you_picked">あなたは、選択しました：</string>
+
+    <string name="ok">定めます</string>
+
+    <string name="cancel">キャンセル</string>
+    <string name="album">画廊</string>
+    <string name="camera">写真</string>
+
+    //add_friend
+    <string name="add_friend">友達を追加</string>
+    <string name="into_chat">チャットを開始</string>
+    <string name="add_reason">理由を追加</string>
+    <string name="add_reason1">理由の友達を追加</string>
+    <string name="send_add_reason">お友達を追加する要求を送信します</string>
+
+    //add_group_number
+    <string name="no_one_can_add">添加していない友達ません</string>
+    <string name="add_success">追加に成功しました</string>
+    <string name="add_fail">追加に失敗しました</string>
+    <string name="add_this_user">メンバーを追加</string>
+    <string name="delete_this_user">メンバーの削除</string>
+    <string name="you_are_not_group_owner">あなたは、メイングループではありません</string>
+    <string name="cannot_delete_yourself">あなたを削除できません</string>
+
+    //blacklist
+    <string name="no_blacklist">いいえユーザーのブラックリストません</string>
+    <string name="delete_success">正常に削除</string>
+    <string name="delete_fail">削除に失敗しました</string>
+
+    //chat
+    <string name="send">送ります</string>
+    <string name="send_fail">送信に失敗しました</string>
+
+    //create_group
+    <string name="create_group">グループを作成します。</string>
+    <string name="input_group_name">グループ名を記入</string>
+    <string name="input_group_description">記入群紹介</string>
+    <string name="create">創建</string>
+    <string name="create_success">成功を創建する</string>
+    <string name="create_fail">失敗を作成する</string>
+
+    //disturb_list
+    <string name="no_disturb_user">ユーザーを邪魔しないでください</string>
+    <string name="into_disturb_global">全体的な状況ディスターブを設定します。</string>
+    <string name="out_disturb_global">全体的な状況ディスターブを持ち上げ</string>
+
+    //find_user
+    <string name="find_user">ユーザーを探します</string>
+    <string name="input_find_username">オブジェクトを検索するために口座番号を入力します。</string>
+    <string name="find">求めます</string>
+    <string name="username_cannot_be_null">アカウントは空にすることはできません</string>
+    <string name="cannot_find_this_uer">オブジェクトが見つかりませんでした</string>
+
+    <string name="he_is_not_your_friend">オブジェクトはあなたの友達ではありません</string>
+    <string name="friend_cannot_into_blacklist">友人がブラックリストに移動することはできません</string>
+
+    //friend_reason
+    <string name="friend_request">フレンドリクエスト</string>
+    <string name="accept_friend_request">友達リクエストを受け入れるために他の当事者</string>
+    <string name="refuse_friend_request">他の友達リクエストを拒否</string>
+    <string name="input_refuse_reason">拒否の理由を記入</string>
+
+    //group_info
+    <string name="add">追加</string>
+    <string name="block_group_message">ブロック</string>
+    <string name="group_info">グループ情報</string>
+    <string name="into_group_talk">グループチャットを入力します。</string>
+    <string name="see_group_members">ビューのメンバー</string>
+    <string name="add_group_members">メンバーを追加します。</string>
+    <string name="into_disturb">入って妨げを免れるのを移します</string>
+    <string name="out_disturb">シフトアウトは邪魔を免れます</string>
+    <string name="exit_group">グループを終了します</string>
+    <string name="exit_group_success">リトリート・グループの成功</string>
+    <string name="exit_group_fail">リトリート・グループは失敗します</string>
+
+
+    <string name="group">グループ</string>
+    <string name="friend">親友</string>
+    <string name="other">他の</string>
+    <string name="user">ユーザー</string>
+
+
+    //login
+    <string name="welcome">歓迎を歓迎する</string>
+    <string name="login">ログイン</string>
+    <string name="login_success">ログインに成功</string>
+    <string name="login_fail">ログインに失敗しました</string>
+    <string name="register">登録</string>
+    <string name="register_success">登録に成功</string>
+    <string name="register_fail">登録に失敗しました</string>
+
+    <string name="password_too_short">パスワードが短すぎます</string>
+    <string name="password_not_match">パスワードは、誤差を決定します</string>
+
+    <string name="input_username">口座番号を入力します。</string>
+    <string name="input_password">パスワードを入力します。</string>
+    <string name="input_password2">パスワードを確認</string>
+    <string name="save_info">情報を保存</string>
+    <string name="forget_password">パスワードを忘れました</string>
+
+
+    //main
+    <string name="message">ニュース</string>
+    <string name="contacts">コンタクト</string>
+    <string name="discover">発見</string>
+
+    <string name="night_model">ナイトモード</string>
+    <string name="light_model">デイモード</string>
+    <string name="exit">やめます</string>
+
+
+    <string name="invite_accepted">私はあなたの友達リクエストを受け入れ</string>
+    <string name="invite_declined">彼はあなたの友人を招待することを拒否しました</string>
+    <string name="reason">理由：</string>
+    <string name="contact_deleted">あなたは友達から削除されます</string>
+
+    <string name="invite_success">アプリケーションが成功しています</string>
+    <string name="invite_fail">アプリケーションが失敗します</string>
+
+    <string name="declined_success">彼は成功を拒否しました</string>
+    <string name="declined_fail">失うことを拒否する</string>
+
+    //info
+    <string name="name">名前：</string>
+    <string name="avatar">アバター：</string>
+    <string name="members">メンバー：</string>
+    <string name="description">入門：</string>
+    <string name="username">アカウント：</string>
+    <string name="nickname">名前：</string>
+    <string name="signature">サイン：</string>
+    <string name="gender">性別：</string>
+    <string name="birthday">誕生日：</string>
+    <string name="region">アドレス：</string>
+
+    //use_setting
+
+    <string name="use_setting">ユーザー設定</string>
+    <string name="input_note">新しいノートを入力します。</string>
+    <string name="update_note">備考を修正する</string>
+    <string name="out_blacklist">ブラックリストから削除</string>
+    <string name="delete_friend">友達を削除</string>
+
+    //show_logout
+    <string name="logout_notify">ログアウト予告</string>
+
+    //update_avatar
+    <string name="update_avatar">アバターを変更</string>
+    <string name="download_bitmap">地元維持するために、</string>
+    <string name="update_bitmap">更新アバター</string>
+
+    //update_group
+    <string name="update_group_info">グループ情報を変更します。</string>
+    <string name="update_group_name">グループ名を変更します。</string>
+    <string name="update_group_description">グループのプレゼンテーションを変更します。</string>
+
+    //update_my_info
+    <string name="update_my_info">プロフィールを編集</string>
+    <string name="input_nickname">ニックネームを入力します。</string>
+    <string name="input_signature">署名を入力します。</string>
+    <string name="input_birthday">誕生日を入力する/例えば：20160101</string>
+    <string name="input_region">アドレスを入力します。</string>
+
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="unknown">不明</string>
+
+    //update_password
+    <string name="input_password_old">古いパスワードを入力します。</string>
+    <string name="input_password_new">新しいパスワードを入力します。</string>
+    <string name="update_password">変更内容を確認</string>
+    <string name="update_success">成功を変更</string>
+    <string name="update_fail">修正に失敗しました</string>
+    <string name="input_password_string">パスワード文字列の一致を入力します。</string>
+    <string name="assertEquals_password">一致するようにしてください</string>
+    <string name="assertEquals_success">マッチング成功</string>
+    <string name="assertEquals_fail">マッチが失敗します</string>
+
+    //user_avatar
+    <string name="see_avatar">プロフィール</string>
+    <string name="user_info">ユーザー情報</string>
+    <string name="bitmap_is_null">絵は空です</string>
+    <string name="save_success">正常に保存</string>
+
+
+    //fg1
+    <string name="no_chat">ませんチャット</string>
+    <string name="change_isRead">変換を読みます</string>
+    <string name="delete_message">チャットを削除します。</string>
+    //fg2
+    <string name="no_friend">あなたはまだお親友です。</string>
+    <string name="no_group">あなたはまだグループがありません。</string>
+    //fg3
+    <string name="version_update">バージョン更新</string>
+    <string name="call_developer">連絡デベロッパー</string>
+    <string name="goto_web">公式サイト</string>
+
+    //gallery
+    <string name="gallery_all_folder">すべての絵</string>
+    <string name="gallery_shoot">写真を撮る</string>
+    <string name="gallery_finish">( %1$d / %2$d )終わる</string>
+    <string name="gallery_gallery">アルバム</string>
+    <string name="gallery_send">@string/send</string>
+    <string name="gallery_photo_num">%d 枚</string>
+    <string name="black_message">遮蔽メッセージ</string>
+
+
+</resources>

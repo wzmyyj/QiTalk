@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GroupView">
+        <attr name="type" format="enum">
+            <enum name="circle" value="1" />
+            <enum name="square" value="2" />
+        </attr>
+        <attr name="padding" format="dimension" />
+        <attr name="cornor" format="dimension" />
+        <attr name="backgroundGP" format="reference|color" />
+
+    </declare-styleable>
+
+</resources>

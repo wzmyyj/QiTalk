@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_find"
+        android:orderInCategory="100"
+        android:title="查找用户"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_chat"
+        android:orderInCategory="100"
+        android:title="发起群聊"
+        android:icon="@drawable/ic_bubble"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="设置"
+        app:showAsAction="never" />
+</menu>

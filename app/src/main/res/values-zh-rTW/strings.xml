@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">輕聊</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    //nav
+    <string name="nav_1">個人資料</string>
+    <string name="nav_2">通知類型</string>
+    <string name="nav_3">免打擾</string>
+    <string name="nav_4">屏蔽名單</string>
+    <string name="nav_5">個性主題</string>
+    <string name="nav_6">多種語言</string>
+    <string name="nav_7">修改密碼</string>
+    <string name="nav_8">用戶登出</string>
+
+
+    //theme
+    <string name="theme_0">默認主題</string>
+    <string name="theme_1">天空藍</string>
+    <string name="theme_2">溫馨粉</string>
+    <string name="theme_3">中國紅</string>
+    <string name="theme_4">原諒綠</string>
+    <string name="theme_5">果粒橙</string>
+    <string name="theme_6">優雅紫</string>
+    <string name="theme_7">夜間模式</string>
+
+    //notify_type
+    <string name="notify_type_0">默認設置</string>
+    <string name="notify_type_1">不展示通知</string>
+    <string name="notify_type_2">通知欄</string>
+    <string name="notify_type_3">聲音</string>
+    <string name="notify_type_4">震動</string>
+    <string name="notify_type_5">呼吸燈</string>
+
+
+    //common
+    <string name="long_press_add">長按添加</string>
+    <string name="long_press_delete">長按刪除</string>
+
+    <string name="save">保存</string>
+    <string name="update_data_success">數據更新成功</string>
+    <string name="Tip">提示：</string>
+    <string name="loading">正在加載。。。</string>
+    <string name="loading_fail">加載失敗</string>
+
+    <string name="set_success">設置成功</string>
+    <string name="set_fail">設置失敗</string>
+
+    <string name="out_success">移出成功</string>
+    <string name="out_fail">移出失敗</string>
+
+    <string name="you_picked">你選擇了：</string>
+
+    <string name="ok">確定</string>
+
+
+    <string name="cancel">取消</string>
+    <string name="album">相冊</string>
+    <string name="camera">拍照</string>
+
+    //add_friend
+    <string name="add_friend">添加好友</string>
+    <string name="into_chat">發起聊天</string>
+    <string name="add_reason">添加原因</string>
+    <string name="add_reason1">添加好友的原因</string>
+    <string name="send_add_reason">發送加好友請求</string>
+
+    //add_group_number
+    <string name="no_one_can_add">沒有可添加的好友</string>
+    <string name="add_success">添加成功</string>
+    <string name="add_fail">添加失敗</string>
+    <string name="add_this_user">添加該成員</string>
+    <string name="delete_this_user">刪除該成員</string>
+    <string name="you_are_not_group_owner">你不是群主</string>
+    <string name="cannot_delete_yourself">不能刪除自己</string>
+
+    //blacklist
+    <string name="no_blacklist">沒有黑名單用戶</string>
+    <string name="delete_success">刪除成功</string>
+    <string name="delete_fail">刪除失敗</string>
+
+    //chat
+    <string name="send">發送</string>
+    <string name="send_fail">發送失敗</string>
+
+    //create_group
+    <string name="create_group">創建群組</string>
+    <string name="input_group_name">填寫群名稱</string>
+    <string name="input_group_description">填寫群介紹</string>
+    <string name="create">創建</string>
+    <string name="create_success">創建成功</string>
+    <string name="create_fail">創建失敗</string>
+
+    //disturb_list
+    <string name="no_disturb_user">沒有免打擾用戶</string>
+    <string name="into_disturb_global">設置全局面免打擾</string>
+    <string name="out_disturb_global">解除全局面免打擾</string>
+
+    //find_user
+    <string name="find_user">查找用戶</string>
+    <string name="input_find_username">輸入查找用戶的賬號</string>
+    <string name="find">查找</string>
+    <string name="username_cannot_be_null">賬號不能為空</string>
+    <string name="cannot_find_this_uer">未找到該對象</string>
+
+    <string name="he_is_not_your_friend">該對象不是你的好友</string>
+    <string name="friend_cannot_into_blacklist">好友不能移入黑名單</string>
+
+    //friend_reason
+    <string name="friend_request">好友請求</string>
+    <string name="accept_friend_request">接受對方好友請求</string>
+    <string name="refuse_friend_request">拒絕對方好友請求</string>
+    <string name="input_refuse_reason">填寫拒絕理由</string>
+
+    //group_info
+    <string name="add">添加</string>
+    <string name="block_group_message">屏蔽群消息</string>
+    <string name="group_info">群組資料</string>
+    <string name="into_group_talk">進入群聊</string>
+    <string name="see_group_members">查看成員</string>
+    <string name="add_group_members">添加成員</string>
+    <string name="into_disturb">移入年打擾</string>
+    <string name="out_disturb">移出免打擾</string>
+    <string name="exit_group">退出該群</string>
+    <string name="exit_group_success">退群成功</string>
+    <string name="exit_group_fail">退群失敗</string>
+
+
+    <string name="group">群組</string>
+    <string name="friend">好友</string>
+    <string name="other">其他</string>
+    <string name="user">用戶</string>
+
+
+    //login
+    <string name="welcome">歡迎使用</string>
+    <string name="login">登錄</string>
+    <string name="login_success">登陸成功</string>
+    <string name="login_fail">登錄失敗</string>
+    <string name="register">註冊</string>
+    <string name="register_success">註冊成功</string>
+    <string name="register_fail">註冊失敗</string>
+
+    <string name="password_too_short">密碼太短</string>
+    <string name="password_not_match">密碼確定錯誤</string>
+
+    <string name="input_username">輸入賬號</string>
+    <string name="input_password">輸入密碼</string>
+    <string name="input_password2">確認密碼</string>
+    <string name="save_info">保存信息</string>
+    <string name="forget_password">忘記密碼</string>
+
+
+    //main
+    <string name="message">消息</string>
+    <string name="contacts">通訊錄</string>
+    <string name="discover">發現</string>
+
+    <string name="night_model">夜間模式</string>
+    <string name="light_model">日間模式</string>
+    <string name="exit">退出</string>
+
+
+    <string name="invite_accepted">接受了你的好友邀請</string>
+    <string name="invite_declined">拒絕了你的好友邀請</string>
+    <string name="reason">原因：</string>
+    <string name="contact_deleted">將你從好友中刪除</string>
+
+    <string name="invite_success">申請成功</string>
+    <string name="invite_fail">申請失敗</string>
+
+    <string name="declined_success">拒絕成功</string>
+    <string name="declined_fail">拒絕失敗</string>
+
+    //info
+    <string name="name">名稱：</string>
+    <string name="avatar">頭像：</string>
+    <string name="members">成員：</string>
+    <string name="description">介紹：</string>
+    <string name="username">賬號：</string>
+    <string name="nickname">暱稱：</string>
+    <string name="signature">簽名：</string>
+    <string name="gender">性別：</string>
+    <string name="birthday">生日：</string>
+    <string name="region">地址：</string>
+
+
+    //use_setting
+
+    <string name="use_setting">用戶設置</string>
+    <string name="input_note">輸入新備註</string>
+    <string name="update_note">修改備註</string>
+    <string name="out_blacklist">移出屏蔽名單</string>
+    <string name="delete_friend">刪除好友</string>
+
+    //show_logout
+    <string name="logout_notify">登出通知</string>
+
+    //update_avatar
+    <string name="update_avatar">修改頭像</string>
+    <string name="download_bitmap">存到本地</string>
+    <string name="update_bitmap">更新頭像</string>
+
+    //update_group
+    <string name="update_group_info">修改群資料</string>
+    <string name="update_group_name">修改群名稱</string>
+    <string name="update_group_description">修改群介绍</string>
+
+    //update_my_info
+    <string name="update_my_info">編輯資料</string>
+    <string name="input_nickname">輸入暱稱</string>
+    <string name="input_signature">輸入簽名</string>
+    <string name="input_birthday">輸入生日/例如：20160101</string>
+    <string name="input_region">輸入地址</string>
+
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="unknown">未知</string>
+
+    //update_password
+    <string name="input_password_old">輸入舊密碼</string>
+    <string name="input_password_new">輸入新密碼</string>
+    <string name="update_password">確認修改</string>
+    <string name="update_success">修改成功</string>
+    <string name="update_fail">修改失敗</string>
+    <string name="input_password_string">輸入字符串匹配密碼</string>
+    <string name="assertEquals_password">嘗試匹配</string>
+    <string name="assertEquals_success">匹配成功</string>
+    <string name="assertEquals_fail">匹配失敗</string>
+
+    //user_avatar
+    <string name="see_avatar">查看頭像</string>
+    <string name="user_info">用戶資料</string>
+    <string name="bitmap_is_null">圖片為空</string>
+    <string name="save_success">保存成功</string>
+
+
+    //fg1
+    <string name="no_chat">還沒有聊天</string>
+    <string name="change_isRead">轉變已讀</string>
+    <string name="delete_message">刪除聊天</string>
+    //fg2
+    <string name="no_friend">您還沒有好友。</string>
+    <string name="no_group">您還沒有群組。</string>
+
+    //fg3
+    <string name="version_update">版本更新</string>
+    <string name="call_developer">聯繫開發者</string>
+    <string name="goto_web">進入官網</string>
+
+
+    //gallery
+    <string name="gallery_all_folder">所有圖片</string>
+    <string name="gallery_shoot">拍攝照片</string>
+    <string name="gallery_finish">( %1$d / %2$d )完成</string>
+    <string name="gallery_gallery">相冊</string>
+    <string name="gallery_send">發送</string>
+    <string name="gallery_photo_num">%d 張</string>
+    <string name="black_message">屏蔽消息</string>
+
+
+</resources>

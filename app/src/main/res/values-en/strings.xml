@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">QiTalk</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    //nav
+    <string name="nav_1">MyInfo</string>
+    <string name="nav_2">NotifyType</string>
+    <string name="nav_3">Disturb</string>
+    <string name="nav_4">Blacklist</string>
+    <string name="nav_5">Theme</string>
+    <string name="nav_6">Language</string>
+    <string name="nav_7">Password</string>
+    <string name="nav_8">Logout</string>
+
+
+    //theme
+    <string name="theme_0">Blue</string>
+    <string name="theme_1">Sky Blue</string>
+    <string name="theme_2">Pink</string>
+    <string name="theme_3">Red</string>
+    <string name="theme_4">Green</string>
+    <string name="theme_5">Orange</string>
+    <string name="theme_6">Purple</string>
+    <string name="theme_7">Night Model</string>
+
+
+    //notify_type
+    <string name="notify_type_0">DEFAULT</string>
+    <string name="notify_type_1">DISABLE</string>
+    <string name="notify_type_2">SILENCE</string>
+    <string name="notify_type_3">WITH SOUND</string>
+    <string name="notify_type_4">WITH VIBRATE</string>
+    <string name="notify_type_5">WITH LED</string>
+
+
+    //common
+    <string name="long_press_add">long press to add</string>
+    <string name="long_press_delete">long press to delete</string>
+
+    <string name="save">Save</string>
+    <string name="update_data_success">update data success</string>
+    <string name="Tip">Tip:</string>
+    <string name="loading">Loading...</string>
+    <string name="loading_fail">loading fail</string>
+
+    <string name="set_success">set success</string>
+    <string name="set_fail">set fail</string>
+
+    <string name="out_success">move success</string>
+    <string name="out_fail">move fail</string>
+
+    <string name="you_picked">you picked: </string>
+
+    <string name="ok">OK</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="album">Album</string>
+    <string name="camera">Camera</string>
+
+    //add_friend
+    <string name="add_friend">Add Friend</string>
+    <string name="into_chat">into chat</string>
+    <string name="add_reason">Reason</string>
+    <string name="add_reason1">add reason</string>
+    <string name="send_add_reason">send add reason</string>
+
+    //add_group_number
+    <string name="no_one_can_add">no one can add</string>
+    <string name="add_success">add success</string>
+    <string name="add_fail">add fail</string>
+    <string name="add_this_user">add this user</string>
+    <string name="delete_this_user">delete this user</string>
+    <string name="you_are_not_group_owner">you are not group owner</string>
+    <string name="cannot_delete_yourself">cannot delete yourself</string>
+
+    //blacklist
+    <string name="no_blacklist">no blacklist</string>
+    <string name="delete_success">delete success</string>
+    <string name="delete_fail">delete fail</string>
+
+    //chat
+    <string name="send">send</string>
+    <string name="send_fail">send fail</string>
+
+    //create_group
+    <string name="create_group">Create Group</string>
+    <string name="input_group_name">input group name</string>
+    <string name="input_group_description">input group description</string>
+    <string name="create">create</string>
+    <string name="create_success">create success</string>
+    <string name="create_fail">create fail</string>
+
+    //disturb_list
+    <string name="no_disturb_user">no disturb user</string>
+    <string name="into_disturb_global">into disturb global</string>
+    <string name="out_disturb_global">out disturb global</string>
+
+    //find_user
+    <string name="find_user">Find User</string>
+    <string name="input_find_username">input his username</string>
+    <string name="find">find</string>
+    <string name="username_cannot_be_null">username cannot be null</string>
+    <string name="cannot_find_this_uer">cannot find this uer</string>
+
+    <string name="he_is_not_your_friend">he is not your friend</string>
+    <string name="friend_cannot_into_blacklist">friend cannot into blacklist</string>
+
+    //friend_reason
+    <string name="friend_request">Friend Request</string>
+    <string name="accept_friend_request">accept friend request</string>
+    <string name="refuse_friend_request">refuse friend request</string>
+    <string name="input_refuse_reason">input refuse reason</string>
+
+    //group_info
+    <string name="add">Add</string>
+    <string name="block_group_message">Block</string>
+    <string name="group_info">GroupInfo</string>
+    <string name="into_group_talk">into group talk</string>
+    <string name="see_group_members">see group members</string>
+    <string name="add_group_members">add group members</string>
+    <string name="into_disturb">into disturb</string>
+    <string name="out_disturb">out disturb</string>
+    <string name="exit_group">exit group</string>
+    <string name="exit_group_success">exit group success</string>
+    <string name="exit_group_fail">exit group fail</string>
+
+
+    <string name="group">Group</string>
+    <string name="friend">Friend</string>
+    <string name="other">Special</string>
+    <string name="user">User</string>
+
+
+    //login
+    <string name="welcome">Welcome</string>
+    <string name="login">Login</string>
+    <string name="login_success">login success</string>
+    <string name="login_fail">login fail</string>
+    <string name="register">Register</string>
+    <string name="register_success">register success</string>
+    <string name="register_fail">register fail</string>
+
+    <string name="password_too_short">password too short</string>
+    <string name="password_not_match">password not match</string>
+
+    <string name="input_username">input username</string>
+    <string name="input_password">input password</string>
+    <string name="input_password2">input password again</string>
+    <string name="save_info">save info</string>
+    <string name="forget_password">forget password</string>
+
+
+    //main
+    <string name="message">Message</string>
+    <string name="contacts">Contacts</string>
+    <string name="discover">Discover</string>
+
+    <string name="night_model">Night Model</string>
+    <string name="light_model">Light_Model</string>
+    <string name="exit">Exit</string>
+
+
+    <string name="invite_accepted">accepted your invitation</string>
+    <string name="invite_declined">declined your invitation</string>
+    <string name="reason">reason: </string>
+    <string name="contact_deleted">deleted you from contacts</string>
+
+    <string name="invite_success">invite success</string>
+    <string name="invite_fail">invite fail</string>
+
+    <string name="declined_success">declined success</string>
+    <string name="declined_fail">declined fail</string>
+
+    //info
+    <string name="name">Name: </string>
+    <string name="avatar">Avatar: </string>
+    <string name="members">Members：</string>
+    <string name="description">Description: </string>
+    <string name="username">Username: </string>
+    <string name="nickname">Nickname: </string>
+    <string name="signature">Signature: </string>
+    <string name="gender">Gender: </string>
+    <string name="birthday">Birthday: </string>
+    <string name="region">Region: </string>
+
+
+    //use_setting
+
+    <string name="use_setting">Setting</string>
+    <string name="input_note">input note</string>
+    <string name="update_note">update note</string>
+    <string name="out_blacklist">out blacklist</string>
+    <string name="delete_friend">delete friend</string>
+
+    //show_logout
+    <string name="logout_notify">Logout Notify</string>
+
+    //update_avatar
+    <string name="update_avatar">Update Avatar</string>
+    <string name="download_bitmap">Download</string>
+    <string name="update_bitmap">Update</string>
+
+    //update_group
+    <string name="update_group_info">update groupInfo</string>
+    <string name="update_group_name">update group name</string>
+    <string name="update_group_description">update group description</string>
+
+    //update_my_info
+    <string name="update_my_info">Update MyInfo</string>
+    <string name="input_nickname">input nickname</string>
+    <string name="input_signature">input signature</string>
+    <string name="input_birthday">input birthday/such as 20160101</string>
+    <string name="input_region">input region</string>
+
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="unknown">unknown</string>
+
+    //update_password
+    <string name="input_password_old">input old password</string>
+    <string name="input_password_new">input new password</string>
+    <string name="update_password">update password</string>
+    <string name="update_success">update success</string>
+    <string name="update_fail">update fail</string>
+    <string name="input_password_string">input string to assert equals password</string>
+    <string name="assertEquals_password">assert equals password</string>
+    <string name="assertEquals_success">assert equals success</string>
+    <string name="assertEquals_fail">assert equals fail</string>
+
+    //user_avatar
+    <string name="see_avatar">See Avatar</string>
+    <string name="user_info">UserInfo</string>
+    <string name="bitmap_is_null">bitmap is null</string>
+    <string name="save_success">save success</string>
+
+
+    //fg1
+    <string name="no_chat">No Chat</string>
+    <string name="change_isRead">read or unread</string>
+    <string name="delete_message">delete message</string>
+    //fg2
+    <string name="no_friend">no friends</string>
+    <string name="no_group">no groups</string>
+
+    //fg3
+    <string name="version_update">version update</string>
+    <string name="call_developer">contact developer</string>
+    <string name="goto_web">the official website</string>
+
+
+    //gallery
+    <string name="gallery_all_folder">All Pictures</string>
+    <string name="gallery_shoot">take a picture</string>
+    <string name="gallery_finish">( %1$d / %2$d )Done</string>
+    <string name="gallery_gallery">Gallery</string>
+    <string name="gallery_send">Send</string>
+    <string name="gallery_photo_num">%d pictures</string>
+    <string name="black_message">black message</string>
+
+
+</resources>

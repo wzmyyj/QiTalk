@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.wzm.tasking.activity.UpdateMyInfo">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_update_my_info"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?app_bg"
+        app:navigationIcon="@drawable/ic_back"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="@string/update_my_info"
+        app:titleTextColor="@color/colorWhite" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp">
+
+        <com.wzm.tasking.view.CircleImageView
+            android:id="@+id/img_update_my_info_avatar"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_update_my_info_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/input_nickname"
+        android:inputType="text"
+        android:textColor="@color/colorGray_3"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/et_update_my_info_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/input_birthday"
+        android:inputType="number"
+        android:textColor="@color/colorGray_3"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/et_update_my_info_region"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/input_region"
+        android:inputType="text"
+        android:textColor="@color/colorGray_3"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/et_update_my_info_signature"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/input_signature"
+        android:inputType="text"
+        android:textColor="@color/colorGray_3"
+        android:textSize="15dp" />
+
+
+    <RadioGroup
+        android:id="@+id/rg_update_my_info_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_update_my_info_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/rb_update_my_info_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+
+        <RadioButton
+            android:id="@+id/rb_update_my_info_unknown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unknown" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_update_my_info_save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bt_selector"
+        android:text="@string/save"
+        android:textColor="@color/colorGray_3"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_update_my_info_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="20"
+        android:textColor="@color/colorGray_7"
+        android:textSize="12sp" />
+</LinearLayout>

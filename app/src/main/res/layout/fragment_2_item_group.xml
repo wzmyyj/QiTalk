@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+
+    <com.wzm.tasking.view.GroupView
+        android:id="@+id/img_group_list_item"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:backgroundGP="@color/colorClarity"
+        app:padding="0dp"
+        app:type="circle" />
+
+
+    <TextView
+        android:id="@+id/tv_group_list_item"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15sp"
+        android:textColor="@color/colorGray_3"
+        android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/img_group_list_item_1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15sp" />
+    <ImageView
+        android:id="@+id/img_group_list_item_2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15sp" />
+</LinearLayout>

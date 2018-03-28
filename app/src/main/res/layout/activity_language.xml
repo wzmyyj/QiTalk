@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wzm.tasking.activity.Language">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_language"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?app_bg"
+        app:navigationIcon="@drawable/ic_back"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="@string/nav_6"
+        app:titleTextColor="@color/colorWhite"></android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/lv_language"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></ListView>
+
+    <Button
+        android:id="@+id/bt_language"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/bt_selector"
+        android:text="@string/ok"
+        android:textColor="@color/colorApp"
+        android:textSize="15sp" />
+
+</LinearLayout>

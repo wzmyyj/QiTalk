@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_gravity="bottom"
+    android:background="@color/colorGray_b"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_main_night"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0.5dp"
+        android:layout_weight="1"
+        android:background="@drawable/click_bg"
+        android:onClick="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_main_night"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/night" />
+
+        <TextView
+            android:id="@+id/tv_main_night"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:text="@string/night_model"
+            android:textColor="@color/colorGray"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_main_end"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0.5dp"
+        android:layout_weight="1"
+        android:background="@drawable/click_bg"
+        android:onClick="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/end" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:text="@string/exit"
+            android:textColor="@color/colorGray"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

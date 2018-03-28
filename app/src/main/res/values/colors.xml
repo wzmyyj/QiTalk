@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#222222</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="colorApp">#0088ff</color>
+    <color name="colorApp1">#00bbff</color>
+    <color name="colorApp2">#ff44dd</color>
+    <color name="colorApp3">#ee0000</color>
+    <color name="colorApp4">#00aa00</color>
+    <color name="colorApp5">#ff8800</color>
+    <color name="colorApp6">#aa55ff</color>
+    <color name="colorApp7">#222222</color>
+    <color name="colorClarity">#0000</color>
+    <color name="colorGray">#666666</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorWhite_1">#eeeeee</color>
+    <color name="colorYellow">#ffff00</color>
+
+    <color name="colorTop">#eeeeff</color>
+    <color name="colorLine">#0077ff</color>
+    <color name="colorAhp_4">#44000000</color>
+    <color name="colorAhp_9">#99ffffff</color>
+    <color name="colorAhp_d">#ddffffff</color>
+    <color name="colorBlack">#111111</color>
+
+
+    <color name="colorGray_b">#bbbbbb</color>
+    <color name="colorGray_e">#eeeeee</color>
+    <color name="colorGray_3">#333333</color>
+    <color name="colorGray_7">#777777</color>
+    <color name="colorDown">#eeeeee</color>>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

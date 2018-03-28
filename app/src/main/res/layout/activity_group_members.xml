@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_group_number"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wzm.tasking.activity.GroupMembers">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_group_members"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?app_bg"
+        app:navigationIcon="@drawable/ic_back"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="@string/see_group_members"
+        app:titleTextColor="@color/colorWhite" />
+
+    <ListView
+        android:id="@+id/lv_group_members"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:dividerHeight="0.5dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/long_press_delete"
+        android:textColor="@color/colorGray_7"
+        android:textSize="13sp" />
+</LinearLayout>

@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Blue">
+        <item name="app_bg">@color/colorApp</item>
+        <item name="colorPrimaryDark">@color/colorApp</item>
+        <item name="nav_bg">@drawable/side_nav_bar</item>
+    </style>
+
+
+    <style name="AppTheme.Sky">
+        <item name="app_bg">@color/colorApp1</item>
+        <item name="colorPrimaryDark">@color/colorApp1</item>
+        <item name="nav_bg">@drawable/side_nav_bar_1</item>
+    </style>
+
+    <style name="AppTheme.Pink">
+        <item name="app_bg">@color/colorApp2</item>
+        <item name="colorPrimaryDark">@color/colorApp2</item>
+        <item name="nav_bg">@drawable/side_nav_bar_2</item>
+    </style>
+
+    <style name="AppTheme.Red">
+        <item name="app_bg">@color/colorApp3</item>
+        <item name="colorPrimaryDark">@color/colorApp3</item>
+        <item name="nav_bg">@drawable/side_nav_bar_3</item>
+    </style>
+
+    <style name="AppTheme.Green">
+        <item name="app_bg">@color/colorApp4</item>
+        <item name="colorPrimaryDark">@color/colorApp4</item>
+        <item name="nav_bg">@drawable/side_nav_bar_4</item>
+    </style>
+
+    <style name="AppTheme.Yellow">
+        <item name="app_bg">@color/colorApp5</item>
+        <item name="colorPrimaryDark">@color/colorApp5</item>
+        <item name="nav_bg">@drawable/side_nav_bar_5</item>
+    </style>
+
+    <style name="AppTheme.Purple">
+        <item name="app_bg">@color/colorApp6</item>
+        <item name="colorPrimaryDark">@color/colorApp6</item>
+        <item name="nav_bg">@drawable/side_nav_bar_6</item>
+    </style>
+
+    <style name="AppTheme.Dark">
+        <item name="app_bg">@color/colorApp7</item>
+        <item name="colorPrimaryDark">@color/colorApp7</item>
+        <item name="nav_bg">@drawable/side_nav_bar_7</item>
+    </style>
+
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <attr name="app_bg" format="reference|color" />
+    <attr name="nav_bg" format="reference|color" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="elevation">0dp</item>
+        </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="myToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+
+
+</resources>
+
