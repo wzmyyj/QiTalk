@@ -155,7 +155,7 @@ public class MyInfo extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent();
-                i.setClass(MyInfo.this, UpdateAvatar.class);
+                i.setClass(MyInfo.this, SaveAvatar.class);
                 startActivity(i);
             }
         });

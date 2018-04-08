@@ -1,11 +1,16 @@
 package com.wzm.tasking.activity;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.PixelFormat;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.SpannableString;
@@ -239,7 +244,7 @@ public class SingleChat extends AppCompatActivity {
             public void onClick(View v) {
                 path.clear();
                 galleryConfig.getBuilder().pathList(path).build();
-                GalleryPick.getInstance().setGalleryConfig(galleryConfig).open(SingleChat.this);
+                initPermissions();
 
             }
         });
@@ -458,5 +463,34 @@ public class SingleChat extends AppCompatActivity {
         }
     }
 
+
+    // 授权管理
+    private void initPermissions() {
+        if (ContextCompat.checkSelfPermission(SingleChat.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+            Log.i("Permission", "需要授权 ");
+            if (ActivityCompat.shouldShowRequestPermissionRationale(SingleChat.this, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+                Log.i("Permission", "拒绝过了");
+                Toast.makeText(SingleChat.this, "请在 设置-应用管理 中开启此应用的储存授权。", Toast.LENGTH_SHORT).show();
+            } else {
+                Log.i("Permission", "进行授权");
+                ActivityCompat.requestPermissions(SingleChat.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 8);
+            }
+        } else {
+            Log.i("Permission", "不需要授权 ");
+            GalleryPick.getInstance().setGalleryConfig(galleryConfig).open(SingleChat.this);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[], @NonNull int[] grantResults) {
+        if (requestCode == 8) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Log.i("Permission", "同意授权");
+                GalleryPick.getInstance().setGalleryConfig(galleryConfig).open(SingleChat.this);
+            } else {
+                Log.i("Permission", "拒绝授权");
+            }
+        }
+    }
 
 }

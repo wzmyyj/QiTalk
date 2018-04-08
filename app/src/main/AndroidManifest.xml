@@ -32,7 +32,7 @@
     <application
         android:name=".application.MyApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_qi"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -54,7 +54,7 @@
         <activity android:name=".activity.UpdateMyInfo" />
         <activity android:name=".activity.UpdatePassword" />
         <activity android:name=".activity.NotifyType" />
-        <activity android:name=".activity.UpdateAvatar" />
+        <activity android:name=".activity.SaveAvatar" />
         <activity android:name=".activity.GetUserInfo" />
         <activity android:name=".activity.UpdateNote" />
         <activity android:name=".activity.FindUser" />
@@ -71,7 +71,7 @@
         <activity android:name=".activity.SingleChat" />
         <activity android:name=".activity.GroupChat" />
         <activity android:name=".activity.Language" />
-        <activity android:name=".activity.UserAvatar" />
+        <activity android:name=".activity.SaveUserAvatar" />
         <activity android:name=".activity.OtherChat" />
         <activity android:name=".activity.Web" />
 

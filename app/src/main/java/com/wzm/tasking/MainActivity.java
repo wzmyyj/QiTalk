@@ -41,7 +41,7 @@ import com.wzm.tasking.activity.ShowFriendReason;
 import com.wzm.tasking.activity.ShowLogoutReason;
 import com.wzm.tasking.activity.SingleChat;
 import com.wzm.tasking.activity.Theme;
-import com.wzm.tasking.activity.UpdateAvatar;
+import com.wzm.tasking.activity.UpdateMyInfo;
 import com.wzm.tasking.activity.UpdatePassword;
 import com.wzm.tasking.fragment.F_1;
 import com.wzm.tasking.fragment.F_2;
@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public boolean onLongClick(View v) {
                 Intent i = new Intent();
-                i.setClass(MainActivity.this, UpdateAvatar.class);
+                i.setClass(MainActivity.this, UpdateMyInfo.class);
                 startActivity(i);
                 return true;
             }

@@ -25,32 +25,17 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import cn.jpush.im.android.api.JMessageClient;
 import cn.jpush.im.android.api.callback.GetAvatarBitmapCallback;
 
-/**
- * Created by ${WZM} on 17/7/16
- *
- * @desc :更新用户头像
- */
-public class UpdateAvatar extends AppCompatActivity {
-
-    private static final int CHOOSE_PICTURE = 0;
-    private static final int TAKE_PICTURE = 1;
-    private static final int CROP_PICTURE = 2;
-
-    private static final String IMAGE_FILE_LOCATION = "file:///sdcard/temp.jpg";
-    private Uri imageUri;//to store the big bitmap
-
+public class SaveUserAvatar extends AppCompatActivity {
     private ProgressDialog mProgressDialog;
     private Toolbar mToolbar;
     private ImageView mImageView;
     private Button mBt_save;
-
-    private static Bitmap mBitmap;
+    public static Bitmap mBitmap;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         initTheme();
         initView();
@@ -78,32 +63,29 @@ public class UpdateAvatar extends AppCompatActivity {
     }
 
     private void initView() {
-        setContentView(R.layout.activity_update_avatar);
-        mToolbar = (Toolbar) findViewById(R.id.toolbar_update_avatar);
+        setContentView(R.layout.activity_user_avatar);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar_user_avatar);
         mBt_save = (Button) findViewById(R.id.bt_save);
         mImageView = (ImageView) findViewById(R.id.img_show_image);
     }
 
     private void initData() {
         setSupportActionBar(mToolbar);
-        imageUri = Uri.parse(IMAGE_FILE_LOCATION);
-
-        mProgressDialog = ProgressDialog.show(UpdateAvatar.this,
-                "提示：", "正在加载中。。。");
+        mProgressDialog = ProgressDialog.show(SaveUserAvatar.this,
+                getResources().getString(R.string.Tip),
+                getResources().getString(R.string.loading));
         mProgressDialog.setCanceledOnTouchOutside(true);
-        JMessageClient.getMyInfo().getBigAvatarBitmap(new GetAvatarBitmapCallback() {
+        GetUserInfo.Info.getBigAvatarBitmap(new GetAvatarBitmapCallback() {
             @Override
             public void gotResult(int i, String s, Bitmap bitmap) {
-                if (i == 0) {
-                    if (bitmap != null) {
-                        mBitmap = bitmap;
-                        mImageView.setImageBitmap(bitmap);
-                    }
+                if (bitmap != null) {
+                    mImageView.setImageBitmap(bitmap);
+                    mBitmap = bitmap;
                 }
                 mProgressDialog.dismiss();
+
             }
         });
-
 
     }
 
@@ -117,14 +99,11 @@ public class UpdateAvatar extends AppCompatActivity {
         mBt_save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                saveBitmap(mBitmap, JMessageClient.getMyInfo().getUserName());
+                saveBitmap(mBitmap, GetUserInfo.Info.getUserName());
             }
 
         });
-
     }
-
-
 
     private void saveBitmap(Bitmap bitmap, String string) {
         if (bitmap == null) {
@@ -156,5 +135,4 @@ public class UpdateAvatar extends AppCompatActivity {
         intent.setData(uri);
         this.sendBroadcast(intent);
     }
-
 }

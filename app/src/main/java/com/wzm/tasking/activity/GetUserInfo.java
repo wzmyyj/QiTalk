@@ -205,7 +205,7 @@ public class GetUserInfo extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent();
-                i.setClass(GetUserInfo.this, UserAvatar.class);
+                i.setClass(GetUserInfo.this, SaveUserAvatar.class);
                 startActivity(i);
             }
         });
