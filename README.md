@@ -1,6 +1,6 @@
 # QiTalk
 
-基于JMessage的Andriod聊天软件。
+基于JMessage的Android聊天软件。
  
  
 支持 单聊，群聊，和机器人(Ashe，基于图灵机器人）聊。
