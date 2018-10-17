@@ -16,7 +16,7 @@ import java.util.Date;
 
 public class HttpTuring {
     private static final String URL = "http://www.tuling123.com/openapi/api";
-    private static final String API_KEY = "2aaad077717a44e996e431fe1f4e14d2";
+    private static final String API_KEY = "<--you turing appkey--->";
 
     public static ChatMessage sendMessage(String string) {
         ChatMessage chatMessage = new ChatMessage();
