@@ -23,11 +23,7 @@ import com.wzm.tasking.tools.ThemeManager;
 import cn.jpush.im.android.api.JMessageClient;
 import cn.jpush.im.android.api.callback.CreateGroupCallback;
 
-/**
- * Created by ${chenyn} on 16/3/29.
- *
- * @desc :创建群组
- */
+
 public class CreateGroup extends AppCompatActivity {
     private Toolbar mToolbar;
     private Button mBt_create;

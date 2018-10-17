@@ -29,7 +29,6 @@ import cn.jpush.im.android.api.JMessageClient;
 import cn.jpush.im.android.api.callback.GetAvatarBitmapCallback;
 
 /**
- * Created by ${WZM} on 17/7/16
  *
  * @desc :更新用户头像
  */

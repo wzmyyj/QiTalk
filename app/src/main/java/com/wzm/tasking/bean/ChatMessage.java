@@ -5,7 +5,7 @@ import android.graphics.Bitmap;
 import java.util.Date;
 
 /**
- * Created by Administrator on 2017/6/15 0015.
+ * Created by yyj on 2017/6/15 0015.
  */
 
 public class ChatMessage {

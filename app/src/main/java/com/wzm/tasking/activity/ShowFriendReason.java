@@ -28,7 +28,6 @@ import cn.jpush.im.api.BasicCallback;
 
 
 /**
- * Created by ${chenyn} on 16/4/17.
  *
  * @desc :同意或拒绝好友申请?
  */

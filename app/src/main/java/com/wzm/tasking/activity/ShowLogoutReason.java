@@ -15,11 +15,6 @@ import com.wzm.tasking.R;
 import com.wzm.tasking.tools.ThemeManager;
 
 
-/**
- * Created by ${chenyn} on 16/4/17.
- *
- * @desc :
- */
 public class ShowLogoutReason extends AppCompatActivity {
     private Toolbar mToolbar;
     private TextView mTv_showLogoutInfo;

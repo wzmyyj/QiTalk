@@ -6,7 +6,7 @@ import cn.jpush.android.api.JPushInterface;
 import cn.jpush.im.android.api.JMessageClient;
 
 /**
- * Created by Administrator on 2017/8/6 0006.
+ * Created by yyj on 2017/8/6 0006.
  */
 
 public class MyApplication extends Application {

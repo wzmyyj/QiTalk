@@ -23,11 +23,6 @@ import cn.jpush.im.android.api.ContactManager;
 import cn.jpush.im.api.BasicCallback;
 
 
-/**
- * Created by ${chenyn} on 16/7/20.
- *
- * @desc :
- */
 public class AddFriend extends AppCompatActivity {
     private Toolbar mToolbar;
     private EditText mEt_reason;

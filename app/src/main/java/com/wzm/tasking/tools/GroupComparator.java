@@ -5,7 +5,7 @@ import java.util.Comparator;
 import cn.jpush.im.android.api.model.GroupInfo;
 
 /**
- * Created by Administrator on 2017/8/8 0008.
+ * Created by yyj on 2017/8/8 0008.
  */
 
 public class GroupComparator implements Comparator {

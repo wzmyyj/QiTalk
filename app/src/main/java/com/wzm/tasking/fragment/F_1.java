@@ -35,7 +35,7 @@ import cn.jpush.im.android.api.model.UserInfo;
 
 
 /**
- * Created by Administrator on 2017/3/21 0021.
+ * Created by yyj on 2017/3/21 0021.
  */
 
 public class F_1 extends Fragment {

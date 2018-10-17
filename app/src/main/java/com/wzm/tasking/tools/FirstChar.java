@@ -1,7 +1,7 @@
 package com.wzm.tasking.tools;
 
 /**
- * Created by Administrator on 2017/6/13 0013.
+ * Created by yyj on 2017/6/13 0013.
  */
 
 public class FirstChar {

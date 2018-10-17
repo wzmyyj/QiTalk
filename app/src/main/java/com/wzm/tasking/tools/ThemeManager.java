@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 import com.wzm.tasking.R;
 
 /**
- * Created by Administrator on 2017/3/23 0023.
+ * Created by yyj on 2017/3/23 0023.
  */
 
 public class ThemeManager {

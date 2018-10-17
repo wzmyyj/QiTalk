@@ -19,7 +19,7 @@ import cn.jpush.im.android.api.model.GroupInfo;
 import cn.jpush.im.android.api.model.UserInfo;
 
 /**
- * Created by Administrator on 2017/8/9 0009.
+ * Created by yyj on 2017/8/9 0009.
  */
 
 public class UGAdapter extends BaseAdapter {

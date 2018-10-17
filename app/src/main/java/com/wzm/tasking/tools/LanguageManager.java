@@ -5,7 +5,7 @@ import android.content.SharedPreferences;
 
 
 /**
- * Created by Administrator on 2017/7/21 0021.
+ * Created by yyj on 2017/7/21 0021.
  */
 
 public class LanguageManager {

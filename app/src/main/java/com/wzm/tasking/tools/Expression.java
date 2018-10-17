@@ -9,7 +9,7 @@ import android.text.style.ImageSpan;
 import sj.qqkeyboard.DefQqEmoticons;
 
 /**
- * Created by Administrator on 2017/8/16 0016.
+ * Created by yyj on 2017/8/16 0016.
  */
 
 public class Expression {
